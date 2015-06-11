@@ -6,10 +6,5 @@
       <username>admin</username>
       <password>admin123</password>
     </server>
-     <server>
-      <id>invoice-client1-snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
   </servers>
 </settings>
