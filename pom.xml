@@ -7,7 +7,7 @@
 	</parent>
 	<artifactId>invoice-client1</artifactId>
 	<packaging>war</packaging>
-	<version>0.4</version>
+	<version>0.5-SNAPSHOT</version>
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -27,7 +27,7 @@
 		<url>https://github.com/raghu-organization/invoice-server</url>
 		<developerConnection>scm:git:git@github.com:raghu-organization/invoice-client1.git</developerConnection>
 		<connection>scm:git:git@github.com:raghu-organization/invoice-client1.git</connection>
-	  <tag>tag-0.4</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<repositories>
 		<repository>
