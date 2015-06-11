@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>invoice-client1</artifactId>
 	<packaging>war</packaging>
-	<version>0.1</version>
+	<version>0.4-SNAPSHOT</version>
 	<build>
 		<pluginManagement>
 			<plugins>
