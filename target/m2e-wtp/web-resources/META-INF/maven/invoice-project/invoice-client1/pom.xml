@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>invoice-project</groupId>
@@ -8,7 +7,7 @@
 	</parent>
 	<artifactId>invoice-client1</artifactId>
 	<packaging>war</packaging>
-	<version>0.8-SNAPSHOT</version>
+	<version>0.9-SNAPSHOT</version>
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -41,6 +40,16 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
+		<repository>
+			<id>invoice-client1-snapshots</id>
+			<url>http://localhost:7092/nexus/content/repositories/invoice-client1-snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>		
 	</repositories>
 	<distributionManagement>
 		<repository>
